@@ -21,7 +21,7 @@ export default function MobileViewSidebar({sidebarToggle, setSidebarToggle, crea
             </div>
 
             {/* List of Conversations */}
-            <div className="px-8 flex flex-col gap-2">
+            <div className="px-8 flex flex-col h-[70%] pb-4 gap-2 overflow-auto">
                 
                 {   
                     allConversations === null

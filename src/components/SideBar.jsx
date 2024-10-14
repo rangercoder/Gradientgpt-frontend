@@ -19,7 +19,7 @@ export default function SideBar({setusecase, setConversation, createNewConversat
             </div>
 
             {/* List of Conversations */}
-            <div className="px-6 flex flex-col gap-2 text-sm">
+            <div className="px-6 flex flex-col h-[70%] pb-4 gap-2 text-sm overflow-auto pt-2">
 
                 {   
                     allConversations === null
