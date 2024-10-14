@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    overflow-y: hidden;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    padding: 7px;
+    /* color: black; */
+    font-size: small;
+    outline: none;
+}
+
+select{
+    border-radius: 5px;
+    font-size: small;
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
