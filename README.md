@@ -8,6 +8,14 @@ The backend is hosted on Vercel, and the Docker image is available for deploymen
 The app has two views: 
 - **Admin View**: Where the admin can see each user and their saved prompts.
 - **User View**: Where users can interact with the chatbot and view their conversation history.
+- Desktop View
+  ![image](https://github.com/user-attachments/assets/0664da92-9f0c-4a1a-bdf5-3b2e3eb6ff34)
+- Mobile view
+  ![image](https://github.com/user-attachments/assets/05625157-799b-4226-a48b-ba33f3d71997)
+-History tab in Mobile view
+![image](https://github.com/user-attachments/assets/2ba0bba2-b13e-4267-b9e7-14ec84f6cc61)
+
+
 
 ## Backend & API
 - Backend Hosted at: [https://gradientgpt.vercel.app/](https://gradientgpt.vercel.app/)
