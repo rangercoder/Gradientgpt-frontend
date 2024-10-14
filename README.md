@@ -10,7 +10,7 @@ The app has two views:
   ![image](https://github.com/user-attachments/assets/44162226-1f7d-48eb-8022-239243aa70de)
 
  Admin View In Mobile:
- 
+
   ![image](https://github.com/user-attachments/assets/85b7b393-0030-4f8c-815c-06d033bf996b)
 
 
@@ -128,6 +128,10 @@ cd ..
 cd backend
 node index.js
 ```
+
+### 8. The Detailed Documentation can be found at:
+The document containes the api keys and the uri for mongodb for setting up the environment variables.
+[https://docs.google.com/document/d/18z28GnRa6yegQEpXkl6u-tXU5aCm3cM72LCXd4bwrtM/edit?usp=sharing](https://docs.google.com/document/d/18z28GnRa6yegQEpXkl6u-tXU5aCm3cM72LCXd4bwrtM/edit?usp=sharing)
 ## License
 This project is open-source and licensed under the MIT License.
 
