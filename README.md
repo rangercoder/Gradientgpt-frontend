@@ -7,7 +7,7 @@ The backend is hosted on Vercel, and the Docker image is available for deploymen
 
 The app has two views: 
 - **Admin View**: Where the admin can see each user and their saved prompts.
-  ![image](https://github.com/user-attachments/assets/44162226-1f7d-48eb-8022-239243aa70de)
+  
 
  Admin View In Mobile:
 
