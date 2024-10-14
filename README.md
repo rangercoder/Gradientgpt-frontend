@@ -95,14 +95,15 @@ npm install
 cd ../backend
 npm install
 ```
-
-### 5.  Start the Frontend Server
+### 5. Create ENV File in backend directory 
+Create a .env file that has all the environemnet variables like api keys for hugging face and the MongoDB URI for the database connection string.
+### 6.  Start the Frontend Server
 ```bash
 cd ..
 cd frontend 
 npm run dev 
 ```
-### 6.  Start the Backend Server
+### 7.  Start the Backend Server
 ```bash
 cd ..
 cd backend
