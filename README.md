@@ -9,7 +9,7 @@ The app has two views:
 - **Admin View**: Where the admin can see each user and their saved prompts.
   To access the admin panel the path is ../admin
   Vercel the admin panel can be accessed at [https://gradientgpt-frontend.vercel.app/admin](https://gradientgpt-frontend.vercel.app/admin)
-  Desktop View
+- Desktop View
  ![image](https://github.com/user-attachments/assets/fb8157b6-41e1-4f56-b931-7860c61a8ebe)
 
 
