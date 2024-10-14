@@ -100,7 +100,8 @@ C:\Program Files\nodejs
 
 - Edit the environemnent variables as shown in the iamge.
 
-- Insert evironment variable screenshot
+![node'](https://github.com/user-attachments/assets/75174820-e11f-4b7e-95a1-840635456e80)
+
 
 ### 4. Install Dependencies in Frontend Directory
 ```bash
