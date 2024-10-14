@@ -7,7 +7,7 @@ The backend is hosted on Vercel, and the Docker image is available for deploymen
 
 The app has two views: 
 - **Admin View**: Where the admin can see each user and their saved prompts.
-  To access the admin panel the path is ```bash
+  To access the admin panel the path is ```
   ../admin```
   Vercel the admin panel can be accessed at [https://gradientgpt-frontend.vercel.app/admin](https://gradientgpt-frontend.vercel.app/admin)
 - Desktop View
