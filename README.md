@@ -38,14 +38,14 @@ The app has two views:
 ## Backend & API
 - Backend Hosted at: [https://gradientgpt.vercel.app/](https://gradientgpt.vercel.app/)
 
-Note: The backend is hosted seperately on vercel and has a seprate repository on github because it was causing conflicts while being hosted. Sincere  apologies for the inconvenience.
+Note: The backend is hosted separately on vercel and has a separate repository on Git Hub because it was causing conflicts while being hosted. Sincere  apologies for the inconvenience.
 - Backend GitHub Repository: [https://github.com/rangercoder/Gradientgpt](https://github.com/rangercoder/Gradientgpt)
 - Docker Image: [https://hub.docker.com/r/fixxer9912/image01/tags](https://hub.docker.com/r/fixxer9912/image01/tags)
 
 ## Features
 - **User View**: 
   - Interact with the chatbot.
-  - Get Response in structred json  format. that can be further used for processing .
+  - Get Response in structured json  format. that can be further used for processing .
   ```bash
   {
     "summary": "string",
@@ -81,7 +81,8 @@ git clone https://github.com/rangercoder/Gradientgpt-frontend
 ```
 The Folder structure of the  frontend should be as follows:
 
-![image](https://github.com/user-attachments/assets/da0d89b2-dc25-4807-be3a-e5329378d2b1)
+![image](https://github.com/user-attachments/assets/9ea19544-ed09-4b6d-87f3-4ca7e8ae1967)
+
 ### 2. Clone the Backend Repository
 ```bash
 cd gradientgpt
