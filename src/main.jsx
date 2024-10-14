@@ -1,12 +1,32 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import NavBar from './components/NavBar'
 
-createRoot(document.getElementById('root')).render(
-    <>
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import Admin from './Admin.jsx';
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: 
+      <>
         <NavBar/>
-        <App />
-    </>
+        <App/>
+      </>,
+    },
+
+    {
+        path: "/admin",
+        element:
+        <>
+            <NavBar/>
+            <Admin/>
+        </>
+    }
+
+  ]);
+
+createRoot(document.getElementById('root')).render(
+    <RouterProvider router={router} />
 )
