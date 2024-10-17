@@ -37,7 +37,7 @@ export default function MobileViewSidebar({sidebarToggle, setSidebarToggle, crea
                     allConversations.map((conversation)=>{
                         return(
                             <div onClick={()=>{setConversation([['bot', "Loading..."]]); setSidebarToggle(false); loadExistingConversation(conversation.history, conversation.id)}} key={conversation.id} className={`flex gap-2 items-center hover:bg-onFocus px-2 select-none cursor-pointer rounded-md ${conversationID===conversation.id ? " outline outline-1 " : " "}`}>
-                                <CiChat1 size={30} className="mt-[2px]"/> {conversation.history[0].userQuery}
+                                <CiChat1 size={30} className="mt-[2px]"/> <span className="text-ellipsis overflow-hidden text-nowrap w-[85%]">{conversation.history[0].userQuery}</span>
                             </div>
                         )
                     })
