@@ -1,4 +1,3 @@
-import { GoGlobe } from "react-icons/go";
 import { FaUserCircle } from "react-icons/fa";
 
 export default function NavBar(){
@@ -7,16 +6,15 @@ export default function NavBar(){
             
             <div className=" w-[95%] flex">
                 {/* <img src="/kpkp.svg"/> */}
-                <img src="/TruegradientLogo.svg" width={150} height={80} className="ml-12"/>
+                <img src="/logowhite.svg" onClick={() => window.location.assign('/')}width={150} height={80} className="ml-12 cursor-pointer"/>
                 
                 <div className=" w-[4rem] flex justify-around items-center ml-auto">
                     <div className="flex text-white">
-                        <GoGlobe color="white"/>
+                        
                         {/* English */}
                     </div>
-                    <div className="w-[1px] h-[2rem] bg-white"></div>
                     <div>
-                        <FaUserCircle color="white"/>
+                    <FaUserCircle className = "cursor-pointer" onClick={() => window.location.assign('/admin')} color="white" />
                     </div>
                 </div>
             </div>
@@ -24,3 +22,4 @@ export default function NavBar(){
         </div>
     )
 }
+

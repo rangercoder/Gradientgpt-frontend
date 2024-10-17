@@ -19,7 +19,7 @@ export default function AdminTab({user, savedChats}){
             {
                 savedChats.filter((chat)=> user.username === chat.userId.username).length > 0&&
 
-                <div className={`${isOpen? "px-4 py-2 h-auto" : "h-0"} bg-[#E9E9E9] rounded-b-lg overflow-clip duration-200 text-sm flex flex-col gap-1`}>
+                <div className={`${isOpen? "px-4 py-2 h-[10rem]" : "h-0"} bg-[#E9E9E9] rounded-b-lg overflow-clip duration-200 text-sm flex flex-col gap-1 overflow-y-auto`}>
                 {
                     savedChats.map((chat, idx)=>{
 
@@ -27,7 +27,7 @@ export default function AdminTab({user, savedChats}){
                             return(
                                 <div className="flex gap-1 items-center" key={idx}>
                                     <CiChat1 className="mt-[2px]" size={18}/>
-                                    {chat.chatHistory[0].userQuery}
+                                    <span className="w-[85%] text-ellipsis text-nowrap overflow-hidden">{chat.chatHistory[0].userQuery}</span>
                                 </div>
                             )
                         }
